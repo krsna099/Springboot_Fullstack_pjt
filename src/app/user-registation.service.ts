@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UserRegistationService {
 
-  ROOT_URI:string="http://javaangularfullstack.us-east-1.elasticbeanstalk.com";
+  ROOT_URI:String="http://javaangularfullstack.us-east-1.elasticbeanstalk.com";
   constructor(private http:HttpClient) { }
 
 
